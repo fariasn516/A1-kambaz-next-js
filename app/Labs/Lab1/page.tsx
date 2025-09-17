@@ -266,7 +266,7 @@ export default function Lab1() {
       <br />
       <h4>Anchor tag</h4>
       Please{" "}
-      <a href="https://github.com/fariasn516/A1-kambaz-next-js" id="wd-github">
+      <a href="https://github.com/fariasn516/kambaz-next-js" id="wd-github">
         click here
       </a>{" "}
       to navigate to code repository
