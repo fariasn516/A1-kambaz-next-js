@@ -5,8 +5,8 @@ export default function Lab1() {
     <div id="wd-lab1">
       <h2>Lab 1</h2>
       <h3>HTML Examples</h3>
-      <div id="wd-h-tag"> ... </div>
-      <div id="wd-p-tag"> ... </div>
+      <div id="wd-h-tag"> Nancy Farias </div>
+      <div id="wd-p-tag"> Section: 01  </div>
       <div id="wd-lists">
         <h4>List Tags</h4>
         <h5>Ordered List Tag</h5>
