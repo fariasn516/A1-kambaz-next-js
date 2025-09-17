@@ -24,13 +24,13 @@ export default function Lab1() {
         <ul id="wd-my-books">
           <li>Dune</li>
           <li>Lord of the Rings</li>
-          <li>Ender's Game</li>
+          <li>Ender&apos;s Game</li>
           <li>Red Mars</li>
           <li>The Forever War</li>
         </ul>
         Your favorite books (in no particular order)
         <ul id="wd-your-books">
-          <li>Archer's Voice</li>
+          <li>Archer&apos;s Voice</li>
           <li>The Giver</li>
           <li>The Promised Neverland</li>
           <li>Animal Farm</li>
@@ -136,7 +136,8 @@ export default function Lab1() {
         <form id="wd-text-fields">
           <h5>Text Fields</h5>
           <label htmlFor="wd-text-fields-username">Username:</label>
-          <input placeholder="jdoe" id="wd-text-fields-username" /> <br />
+          <input placeholder="jdoe" id="wd-text-fields-username" />
+          <br />
           <label htmlFor="wd-text-fields-password">Password:</label>
           <input
             type="password"
@@ -145,7 +146,7 @@ export default function Lab1() {
           />
           <br />
           <label htmlFor="wd-text-fields-first-name">First name:</label>
-          <input type="text" title="John" id="wd-text-fields-first-name" />{" "}
+          <input type="text" title="John" id="wd-text-fields-first-name" />
           <br />
           <label htmlFor="wd-text-fields-last-name">Last name:</label>
           <input
@@ -155,6 +156,7 @@ export default function Lab1() {
             title="The last name"
             id="wd-text-fields-last-name"
           />
+
           <h5>Text boxes</h5>
           <label>Biography:</label>
           <br />
@@ -162,8 +164,9 @@ export default function Lab1() {
             id="wd-textarea"
             cols={30}
             rows={10}
-            defaultValue="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            defaultValue="Lorem ipsum dolor sit amet..."
           />
+
           <h5 id="wd-buttons">Buttons</h5>
           <button
             type="button"
@@ -172,6 +175,7 @@ export default function Lab1() {
           >
             Hello World!
           </button>
+
           <h5 id="wd-radio-buttons">Radio buttons</h5>
           <label>Favorite movie genre:</label>
           <br />
@@ -186,6 +190,7 @@ export default function Lab1() {
           <br />
           <input type="radio" name="radio-genre" id="wd-radio-fantasy" />
           <label htmlFor="wd-radio-fantasy">Fantasy</label>
+
           <h5 id="wd-checkboxes">Checkboxes</h5>
           <label>Favorite movie genre:</label>
           <br />
@@ -200,6 +205,7 @@ export default function Lab1() {
           <br />
           <input type="checkbox" name="check-genre" id="wd-chkbox-fantasy" />
           <label htmlFor="wd-chkbox-fantasy">Fantasy</label>
+
           <h4 id="wd-dropdowns">Dropdowns</h4>
           <h5>Select one</h5>
           <label htmlFor="wd-select-one-genre"> Favorite movie genre: </label>
@@ -210,6 +216,7 @@ export default function Lab1() {
             <option value="SCIFI">Science Fiction</option>
             <option value="FANTASY">Fantasy</option>
           </select>
+
           <h5>Select many</h5>
           <label htmlFor="wd-select-many-genre"> Favorite movie genres: </label>
           <br />
@@ -223,6 +230,7 @@ export default function Lab1() {
             <option value="SCIFI">Science Fiction</option>
             <option value="FANTASY">Fantasy</option>
           </select>
+
           <h4>Other HTML field types</h4>
           <label htmlFor="wd-text-fields-email"> Email: </label>
           <input
@@ -244,7 +252,6 @@ export default function Lab1() {
             type="range"
             defaultValue="4"
             max="5"
-            placeholder="Doe"
             id="wd-text-fields-rating"
           />
           <br />
